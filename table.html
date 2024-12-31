@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Belajar HTML Table</title>
+	<style>
+		body {
+			font-family: Arial;
+		}
+
+		table, th, td {
+			border: 1px solid #000;
+			border-collapse: collapse;
+			padding: 10px;
+		}
+
+		th {
+			text-align: left;
+		}
+
+	</style>
+</head>
+<body>
+	<table width="100%">
+		<tr>
+			<th>Title</th>
+			<th width="70%">Author</th>
+			<th>Genre</th>
+		</tr>
+		<tr>
+			<td>One Piece</td>
+			<td>Echiro Oda</td>
+			<td>Shonen</td>
+		</tr>
+		<tr>
+			<td>Naruto</td>
+			<td>Mashasi Kisomoto</td>
+			<td>Shonen</td>
+		</tr>
+	</table>
+	<hr>
+
+	<table width="100%">
+		<tr>
+			<th colspan="2" style="text-align: center;">Merge</th>
+		</tr>
+		<tr>
+			<th rowspan="2">Telpon</th>
+			<td>080000000</td>
+		</tr>
+		<tr>
+			<td>08700000000</td>
+		</tr>
+	</table>
+
+	<hr>
+
+	<table style="width: 100%">
+		<colgroup>
+			<col span="2" style="background-color: #D6EEEE;"></col>
+		</colgroup>
+
+		<tr>
+			<th>MON</th>
+			<th>TUE</th>
+			<th>WED</th>
+			<th>THU</th>
+			<th>FRI</th>
+			<th>SAT</th>
+			<th>SUN</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>2</td>
+			<td>3</td>
+			<td>4</td>
+			<td>5</td>
+			<td>6</td>
+			<td>7</td>
+		</tr>
+	</table>
+</body>
+</html>
